@@ -1,0 +1,60 @@
+h1 {
+    color:rgb(191, 247, 234);
+    background-color: rgb(67, 141, 112);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+}
+
+li {
+    color: rgb(183, 252, 130);
+}
+
+a {
+    color: rgb(191, 252, 130);
+}
+
+h2 {
+    color:rgb(191, 247, 234);
+}
+
+h3 {
+    color:rgb(191, 247, 234);
+}
+
+body {
+    color: rgb(119, 214, 255)
+}
+
+footer p {
+    color: rgb(104, 230, 217);
+}
+
+body {
+    background-color: rgb(58, 123, 97);
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-area {
+    border-top: 3px solid rgb(84, 54, 21);
+    border-bottom: 3px solid rgb(84, 54, 21);
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
