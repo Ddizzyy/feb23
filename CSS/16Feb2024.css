@@ -1,0 +1,506 @@
+h1 {
+    color:rgb(191, 247, 234);
+    background-color: rgb(82, 151, 108);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+}
+
+/* Typography */
+header h1 {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 1px 5px 1px rgba(237, 152, 122, 0.808);
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: rgb(191, 247, 234);
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: rgb(196, 230, 104);
+}
+
+/* End of Typography */
+
+
+/*Media Query*/
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+        .content-area {
+            max-width: 1300px;
+        }
+}
+/*Media Query*/
+
+h2 {
+    color:rgb(191, 247, 234);
+}
+
+h3 {
+    color:rgb(191, 247, 234);
+}
+
+body {
+    color: rgb(119, 214, 255)
+}
+
+footer p {
+    color: rgb(104, 230, 217);
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-area {
+    border-top: 3px solid rgb(67, 141, 112);
+    border-bottom: 3px solid rgb(67, 141, 112);
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.support {
+    width: 30%;
+    float: left;
+}
+
+.fix {
+    clear: both;
+}
+
+html {
+    background-color: rgb(114, 197, 164);
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 90%;
+}
+
+img {
+    max-width: 100%;
+    height: 87%;
+}
+
+
+
+/* Banner Overlay */
+.banner-caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(39, 107, 111, 0.764);
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color: rgb(119, 214, 255);
+}
+/* End of Banner Overlay */
+
+
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(58, 123, 97);
+    background: url(../images/stripe.png) left bottom repeat-x, rgb(58, 123, 97) url(../images/stripe.png) left top repeat-x;
+    padding-top: 16px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Media Query*/
+@media screen and (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+/* Media Query*/
+
+.box1 {
+    background-image: url(../images/unicorn\ copy.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+/* Form Styles */
+form {
+    background-color: rgb(82, 151, 108);
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input [type="email"], input[type="password"], select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(67, 141, 112);
+}
+
+input, select {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 100%;
+}
+
+input [type="email"]:focus, input [type="password"]:focus {
+    border: 2px rgb(67, 141, 112);
+}
+
+input [type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgb(119, 214, 255);
+    color: rgb(233, 218, 133);
+    padding: 10px 0;
+    border: 2px solid rgba(39, 107, 111, 0.764);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input [type="submit"]:hover,
+input [type="submit"]:focus {
+    border: 1px solid rgb(67, 141, 112);
+    background-color: rgb(119, 214, 255);
+}
+/* End Form Styles */
+
+
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    background-color: rgb(67, 141, 112);
+    color: rgb(191, 247, 234);
+    text-shadow: 1px 1px 0 rgb(83, 63, 142);
+}
+
+table th, table td{
+    border: 2px solid rgb(67, 141, 112);
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color:rgb(114, 197, 164);
+}
+
+table tbody tr:nth-child(2), table tbody tr:nth-child(3),
+table tbody tr:nth-child(2), table tbody tr:nth-child(3){
+    text-align: center;
+}
+
+.col-dinosaur {
+    width: 60%
+}
+
+.col-time, .col-diet {
+    width: 20%
+}
+/* End of table Styles */
+
+
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(196, 230, 104);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 170%
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {
+    
+    border-top: 3px solid rgb(83, 63, 142);
+    border-bottom: 3px solid rgb(83, 63, 142);
+}
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-image: linear-gradient(rgb(67, 141, 112),rgb(61, 120, 129));
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.fix {
+    clear: both;
+}
+
+/*Media Query*/
+@media screen and (max-width: 700px) {
+    .main,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .main {
+        padding-right: 0;
+    }
+}
+/*Media Query*/
+
+
+p {
+    color:rgb(119, 214, 255);
+}
+
+footer p {
+    color: rgb(104, 230, 217);
+    text-align: center;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color:rgb(191, 247, 234);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: rgb(119, 214, 255);
+}
+
+aside {
+    color: rgb(191, 247, 234);
+}
+
+footer p span {
+    color: rgb(191, 252, 130);
+}
+
+.highlight {
+    color: rgb(191, 252, 130);
+    background-color: rgb(67, 102, 141);
+}
+
+.brand-color {
+    color: rgb(191, 247, 234);
+    background-color: rgb(67, 102, 141);
+}
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: rgb(183, 252, 130);
+    padding: 10px 20px;
+    border: 3px solid rgb(83, 63, 142);
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: rgb(67, 141, 112);
+}
+/*End of Site Navigation*/
+
+@media screen and (max-width: 70) {
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3px solid rgb(83, 63, 142);
+    }
+    
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-caption{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(67, 102, 141);
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color: rgb(191, 247, 234);
+}
+
+/* End of Banner Overlay */
+
+/*Slideshow*/
+.image-banner {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    z-index: 10;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.cycle-slideshow {
+    margin-bottom: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.slide {
+    width: 60%;
+    position: relative;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: -10;
+    background-color:rgb(67, 102, 141);
+    color: black;
+    width: 100%;
+    padding: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.slide-text h3 {
+    margin: 0;
+    color: rgb(201, 247, 154);
+}
+
+.slide-text p {
+    color: rgb(119, 214, 255);
+}
+
+/*End of slideshow*/
+
+/*Previous and Next*/
+.cycle-prev, .cycle-next {
+    position: absolute;
+    width: 15%;
+    top: 30%;
+    background-color:rgb(67, 102, 141);
+    color:rgb(119, 214, 255);
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    font-size: 135%;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.cycle-next {
+    right: 0;
+}
+
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next {
+    opacity: 1;
+}
+
+/*End of Previous and next*/
